@@ -6,6 +6,10 @@ __pycache__/
 # Database Files
 *.db
 
+# Project Files
+receipt.png
+Synopsis.docx
+
 # C extensions
 *.so
 

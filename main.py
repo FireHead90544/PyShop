@@ -1,11 +1,7 @@
 import sqlite3
 from pathlib import Path
-import os
-import time
 from datetime import datetime
-import string
-import random
-import math
+import time, os, string, random, math
 import pyqrcode # pip install pyqrcode pypng
 
 current_path = Path(os.path.dirname(os.path.abspath(__file__)))

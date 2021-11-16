@@ -402,7 +402,7 @@ def buy_items():
         purchaseTime = datetime.now()
         receipt = f"""
         PySHOP - Your Pythonic SHOP
-        Receipt for user [{unique_id}]: {username}0\n\tAddress: {address}\n\n"""
+        Receipt for user [{unique_id}]: {username}\n\tAddress: {address}\n\n"""
         total = 0       
         for item, qty in cart.items():
             total += qty[0] * qty[1]
